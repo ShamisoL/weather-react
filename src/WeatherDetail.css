@@ -6,8 +6,8 @@
 }
 .WeatherDetail strong {
   color: rgb(33, 33, 33);
-  font-size: 64px;
-  font-weight: 400;
+  font-size: 16px;
+  font-family: "Roboto";
 }
 .WeatherDetail .units {
   position: relative;
@@ -17,4 +17,7 @@
 .WeatherDetail li {
   list-style: none;
   color: rgb(135, 135, 135);
+}
+.units {
+  font-weight: 600;
 }

@@ -19,17 +19,19 @@ export default function WeatherDetail() {
           </div>
         </div>
         <div className="col-md-6">
-          <ul>
-            <li>
-              Humidity: <span id="humidity"></span>12%
-            </li>
-            <li>
-              Wind: <span id="wind"></span>12km/h
-            </li>
-            <li>
-              Fahrenheit: <span id="fahrenheit"></span>12°F
-            </li>
-          </ul>
+          <strong>
+            <ul>
+              <li>
+                Humidity: <span id="humidity"></span>12%
+              </li>
+              <li>
+                Wind: <span id="wind"></span>12km/h
+              </li>
+              <li>
+                Fahrenheit: <span id="fahrenheit"></span>12°F
+              </li>
+            </ul>
+          </strong>
         </div>
       </div>
     </div>
