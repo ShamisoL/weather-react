@@ -1,0 +1,20 @@
+.WeatherDetail img {
+  margin-right: 10px;
+  margin-bottom: 40px;
+  height: 64px;
+  width: 64px;
+}
+.WeatherDetail strong {
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  font-weight: 400;
+}
+.WeatherDetail .units {
+  position: relative;
+  font-size: 40px;
+  top: -15px;
+}
+.WeatherDetail li {
+  list-style: none;
+  color: rgb(135, 135, 135);
+}

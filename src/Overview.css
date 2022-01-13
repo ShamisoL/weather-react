@@ -1,0 +1,27 @@
+.overview ul {
+  margin: 0;
+  padding: 0;
+}
+
+.overview li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  color: rgb(135, 135, 135);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+}
+.overview li::first-letter {
+  text-transform: capitalize;
+}
+.overview h1 {
+  color: #878787;
+
+  display: block;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 0;
+}
